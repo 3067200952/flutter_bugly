@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.crazecoder.flutterbugly">
 
-    <application android:networkSecurityConfig="@xml/network_security_config"
-        tools:targetApi="n">
+    <application
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+
         <provider
             tools:replace="android:authorities"
             android:name="androidx.core.content.FileProvider"

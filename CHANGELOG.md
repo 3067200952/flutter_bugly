@@ -1,3 +1,13 @@
+## 0.2.8
+* android应用更新SDK升级到1.4.2
+## 0.2.7
+* 异常上报新增debugUpload字段，默认false
+* 异常上报新增uploadException方法
+* 新增setAppChannel方法
+## 0.2.6
+* android:networkSecurityConfig改为android:usesCleartextTraffic
+## 0.2.5
+* 优化iOS和android异常上报控制台排版格式
 ## 0.2.4+1
 * 修复自动适配模式时，debug时网络请求会上报的问题
 ## 0.2.4
